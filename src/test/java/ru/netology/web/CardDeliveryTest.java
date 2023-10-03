@@ -17,7 +17,7 @@ public class CardDeliveryTest {
     void shouldTest() {
         open("http://localhost:9999");
         $$("[data-test-id=notification]");
-        $("[data-test-id=city] input").setValue("");
+        $("[data-test-id=city] input").setValue("Екатеринбург");
         $("[data-test-id=date] input").setValue("11.10.2023");
         $("[data-test-id=name] input").setValue("Геннадий Ветров");
         $("[data-test-id=phone] input").setValue("+79090091919");
